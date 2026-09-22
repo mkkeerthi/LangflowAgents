@@ -1,3 +1,17 @@
+## Description
+
+Two Langflow agent flows:
+
+    1. Bug Triage Agent — takes a Jira work item key (e.g. SCRUM-3), fetches the
+       issue, and returns SEVERITY, PRIORITY, IMPACT_AREAS, ROOT_CAUSE_ANALYSIS and
+       JUSTIFICATION. Chain: Chat Input → Jira → Open Router LLM → Chat Output.
+
+    2. Edge Cases Agent — takes a software requirement and returns a RICEPOT-grouped
+       list of edge cases. Chain: Chat Input → Groq LLM → Chat Output.
+
+    Built with custom Python components for Groq and Jira; each flow ships with an
+    exported JSON and a write-up alongside its prompts.
+
 ## Structure
 
 ```
