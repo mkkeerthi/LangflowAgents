@@ -1,0 +1,19 @@
+# Langflow runtime data (SQLite DB + encryption secret key)
+langflow_data/
+
+# Virtualenv
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
