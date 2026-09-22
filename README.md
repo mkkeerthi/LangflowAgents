@@ -67,7 +67,7 @@ that shipped with the original install.
 1. **Open a terminal at the project root.**
 
    ```powershell
-   cd C:\PramodAcademy\LangflowAgents
+   cd C:\LangflowAgents
    ```
 
 2. **Confirm the virtualenv and data are present.**
